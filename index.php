@@ -80,7 +80,85 @@
    echo constant("NAME") . "<br>";
    
    ?>
-   <h1>tahamina</h1>
+
+<h1>echo vs print</h1>
+
+<?php 
+ echo 45;
+
+ print "hello";
+ print ("hello");
+
+ // print valo returan 1
+
+$test = print("hello");
+ echo"<br>";
+ echo $test; 
+
+  echo"<br>"
+
+   // echo "<h1 class=\"text-color\">Raj</h1>";
+
+    //echo '<h1 class=\"text-color\">Raj</h1>';
+
+  
+?>
+
+<h1>data type</h1>
+<?php 
+   
+   //integer    float  decimal  string  null
+
+   // bulian = true  false
+
+   $user_status = true;
+
+
+   $name = ""; // null
+
+   // Var Dump
+
+   $hand = "day";
+
+   $num = 20;
+
+   $Is_admin = "true";
+
+   Var_dump ($hand); 
+   echo "<br>";
+
+   Var_dump ($num);
+   echo "<br>";
+
+   Var_dump ($Is_admin);
+
+   echo "<br>";
+   Var_dump ($hand, $num, $Is_admin);
+
+   echo "<br>";
+
+       //printf
+
+   $name = "bangladesh";
+   printf("hello $name");
+   echo "<br>";
+
+   // ucwords is first letter upercase
+   // concatenet
+
+   $new_name = ucwords($name);
+   echo "hello $new_name";
+
+  // printf("hello %s my school name: %s my address is: %s", $name);
+
+
+
+
+
+
+?>
+
+
 
 
 
