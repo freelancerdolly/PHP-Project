@@ -149,7 +149,63 @@ $test = print("hello");
    $new_name = ucwords($name);
    echo "hello $new_name";
 
-  // printf("hello %s my school name: %s my address is: %s", $name);
+   ?>
+
+<?php
+
+
+// printf("hello %s my school name: %s my address is: %s", $name);
+
+  $html_block = "<div>
+  <h1> Raj</h1>
+  <h2>under</h2>
+    </div>";
+echo $html_block;
+echo "<br>";
+
+$first_name = "david";
+
+$last_name = "dewan";
+
+$html_block = "<div>
+
+  <h1>".ucwords($first_name)."</h1>
+  <h2>".ucwords($last_name)."</h2>
+
+    </div>";
+    
+    echo $html_block;
+
+
+$first_name1 = "ali";
+$last_name2 = "mohammad";
+$html_block = "<div>
+<h1>%s</h1>
+<h2>%s</h2>
+</div>";
+
+
+
+printf($html_block,$first_name1,$last_name2);
+
+
+
+
+// printf($html_block, ucwords($first_name1), ucwords($last_name2);
+
+$amount = 100;   //imtiger hole %d
+printf ("amount: %d", $amount );
+
+
+
+
+$amount = 10.33;   //float number hole %f
+               // decimale por 6 digit
+printf ("amount: %f", $amount );
+
+
+
+
 
 
 
