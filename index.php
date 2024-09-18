@@ -13,152 +13,152 @@
     <?php echo "welcome to PHP"; 
     
     
-     $name = ' Raj';
-     $price = 100;
-     $address = 'dhanmondi';
-     $text = 'i love bangladesh';
-     $isadmin = 'true';
-     $total_amount = 10;
-     $first_name = 'raj';
-     
-     echo"<br>";
+    $name = ' Raj';
+    $price = 100;
+    $address = 'dhanmondi';
+    $text = 'i love bangladesh';
+    $isadmin = 'true';
+    $total_amount = 10;
+    $first_name = 'raj';
+    
+    echo"<br>";
 
-     echo " hello $first_name, your total amount is: $total_amount";
+    echo " hello $first_name, your total amount is: $total_amount";
 
-     echo ' hello '.$first_name.', your total amount is: '.$total_amount;
+    echo ' hello '.$first_name.', your total amount is: '.$total_amount;
 
-     echo " hello ".$first_name.", your total amount is:". $total_amount;
-     echo $name;
-     
-     
+    echo " hello ".$first_name.", your total amount is:". $total_amount;
+    echo $name;
+    
+    
     
     ?>
 
-   <h1>hello <?php echo $name ?>, your amount is <?php echo $price;?></h1>
+<h1>hello <?php echo $name ?>, your amount is <?php echo $price;?></h1>
 
-   <h2>Commwnt</h2>
+<h2>Commwnt</h2>
 
-  <?php
+<?php
 
   //product pricr calculation start
 
-  #product pricr calculation start
-  
-  $first_price = 20;
-   $second_price = 40;
-   $total_price = $first_price + $second_price;
+#product pricr calculation start
 
-   echo $total_price;
-   echo"<br>";
+$first_price = 20;
+$second_price = 40;
+$total_price = $first_price + $second_price;
+
+echo $total_price;
+echo"<br>";
 
    // product pricr calculation end
 
 
-  /* product pricr calculation start
-   product pricr calculation start
-   product pricr calculation start*/
+/* product pricr calculation start
+product pricr calculation start
+product pricr calculation start*/
 
-   $result = 20 +/* 10*/ + 50;
-   echo $result;
+$result = 20 +/* 10*/ + 50;
+echo $result;
 
-   ?>
+?>
 
-   <h1>constants</h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reprehenderit saepe laborum incidunt cupiditate blanditiis sunt obcaecati odio ipsum corrupti, laboriosam a optio nemo porro aut, aliquid iure unde. Magnam?</p>
+<h1>constants</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reprehenderit saepe laborum incidunt cupiditate blanditiis sunt obcaecati odio ipsum corrupti, laboriosam a optio nemo porro aut, aliquid iure unde. Magnam?</p>
 
 
-   <?php 
-   define("NAME", "Raj");
+<?php 
+define("NAME", "Raj");
 
-   define("AMOUNT", 90);
+define("AMOUNT", 90);
 
-   echo NAME;
+echo NAME;
 
-   echo"<br>";
+echo"<br>";
 
-   echo AMOUNT;
-   echo constant("NAME") . "<br>";
-   
-   ?>
+echo AMOUNT;
+echo constant("NAME") . "<br>";
+
+?>
 
 <h1>echo vs print</h1>
 
 <?php 
- echo 45;
+echo 45;
 
- print "hello";
- print ("hello");
+print "hello";
+print ("hello");
 
  // print valo returan 1
 
 $test = print("hello");
- echo"<br>";
- echo $test; 
+echo"<br>";
+echo $test; 
 
-  echo"<br>"
+echo"<br>"
 
    // echo "<h1 class=\"text-color\">Raj</h1>";
 
     //echo '<h1 class=\"text-color\">Raj</h1>';
 
-  
+
 ?>
 
 <h1>data type</h1>
 <?php 
-   
+
    //integer    float  decimal  string  null
 
    // bulian = true  false
 
-   $user_status = true;
+$user_status = true;
 
 
    $name = ""; // null
 
    // Var Dump
 
-   $hand = "day";
+$hand = "day";
 
-   $num = 20;
+$num = 20;
 
-   $Is_admin = "true";
+$Is_admin = "true";
 
-   Var_dump ($hand); 
-   echo "<br>";
+Var_dump ($hand); 
+echo "<br>";
 
-   Var_dump ($num);
-   echo "<br>";
+Var_dump ($num);
+echo "<br>";
 
-   Var_dump ($Is_admin);
+Var_dump ($Is_admin);
 
-   echo "<br>";
-   Var_dump ($hand, $num, $Is_admin);
+echo "<br>";
+Var_dump ($hand, $num, $Is_admin);
 
-   echo "<br>";
+echo "<br>";
 
        //printf
 
-   $name = "bangladesh";
-   printf("hello $name");
-   echo "<br>";
+$name = "bangladesh";
+printf("hello $name");
+echo "<br>";
 
    // ucwords is first letter upercase
    // concatenet
 
-   $new_name = ucwords($name);
-   echo "hello $new_name";
+$new_name = ucwords($name);
+echo "hello $new_name";
 
-   ?>
+?>
 
 <?php
 
 
 // printf("hello %s my school name: %s my address is: %s", $name);
 
-  $html_block = "<div>
-  <h1> Raj</h1>
-  <h2>under</h2>
+$html_block = "<div>
+<h1> Raj</h1>
+<h2>under</h2>
     </div>";
 echo $html_block;
 echo "<br>";
@@ -169,8 +169,8 @@ $last_name = "dewan";
 
 $html_block = "<div>
 
-  <h1>".ucwords($first_name)."</h1>
-  <h2>".ucwords($last_name)."</h2>
+<h1>".ucwords($first_name)."</h1>
+<h2>".ucwords($last_name)."</h2>
 
     </div>";
     
