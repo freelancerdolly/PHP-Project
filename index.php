@@ -204,6 +204,53 @@ $amount = 10.33;   //float number hole %f
 printf ("amount: %f", $amount );
 
 
+echo "<br>";
+$test = 97;
+printf ("amount: %f", $test);
+
+echo "<br>";
+$test = 97;
+printf ("amount: %c", $test);
+// %c (character)
+
+echo "<br>";
+$test = 71;
+printf ("amount: %c", $test);
+
+echo "<br>";
+$test = 97;  // intiger number
+printf ("amount: %b", $test);
+// binare valu %b
+
+echo "<br>";
+$test = 10;
+printf ("amount: %x", $test);
+//  hex decimal
+
+echo "<br>";
+$test = 10;
+printf ("amount: %X", $test);
+  // capital letter X
+
+
+echo "<br>";
+$test = 10;
+$test2 = 20;
+printf ("amount: %d another amount is: %d",$test, $test2);
+
+echo "<br>";
+$test = 10;
+$test2 = 20;
+printf ('amount: %2$d another amount is: %1$d',$test, $test2);
+
+
+$first_name = "jon";
+$last_name = "roy";
+//printf ('Your first name is: %$2s last name is: %$1s' $first_name ,$last_name);
+printf ('amount: %2$d another amount is: %1$d',$first_name, $last_name);
+
+
+
 
 
 
