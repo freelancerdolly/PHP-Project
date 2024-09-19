@@ -250,6 +250,28 @@ $last_name = "roy";
 printf ('amount: %2$d another amount is: %1$d',$first_name, $last_name);
 
 
+echo "<br>";
+$amount = 10.25;
+printf('your amount is:%d', $amount);
+
+
+echo "<br>";
+$amount = 10.25;
+printf('your amount is:%f', $amount);
+
+// %.2 ,3,4  f 
+
+echo "<br>";
+$amount = 100.37;
+printf('your amount is:%.2f', $amount);
+
+echo "<br>";
+$amount = 100.37;
+printf('your amount is:%.5f', $amount);
+
+
+
+
 
 
 
