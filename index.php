@@ -269,6 +269,89 @@ echo "<br>";
 $amount = 100.37;
 printf('your amount is:%.5f', $amount);
 
+echo "<br>";
+$name = "dev";
+printf("[%-10s]", $name);
+//  "[%-10s]"
+
+echo "<br>";
+$name = "dev";
+printf("[%-010s]", $name);
+//  "[%-010s]"
+
+echo "<br>";
+$name = "dev";
+printf("[%-'*10s]", $name);
+//  ("[%-'*10s]", $name);
+
+
+echo "<br>";
+$name = "dev";
+printf("[%'*10s]", $name);
+//  ("[%'*10s]", $name)
+
+echo "<br>";
+$name = "mike";
+printf("[%10.5s]", $name);
+//  "[%10.5s]"
+
+echo "<br>";
+$name = "mike";
+printf("[%'#10.5s]", $name);
+//  "[%'#10.5s]"
+
+echo "<br>";
+$name = "mike";
+printf("[%-'*10.4s]", $name);
+
+/*Arithmatic Operator
+=====================
+=
+-
+*
+%
+/
+\*/
+
+echo "<br>";
+$num = 3+5;
+echo $num ;
+
+echo "<br>";
+$num = 3+9;
+var_dump ($num);
+
+echo "<br>";
+$num = 17-5;
+echo $num ;
+
+echo "<br>";
+$first_name = 8;
+$second_name = 5;
+$num = $first_name - $second_name;
+echo $num;
+
+echo "<br>";
+$first_name = 8;
+$second_name = 5;
+$num = $first_name * $second_name;
+echo $num;
+
+echo "<br>";
+$first_name = 8;
+$second_name = 5;
+$num = $first_name / $second_name;
+echo $num;
+
+echo "<br>";
+$first_name = 8;
+$second_name = 5;
+$num = $first_name ** $second_name; // 8*8*8*8*8
+echo $num;
+
+echo "<br>";
+echo "Assignment Operator"
+
 
 
 
