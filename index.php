@@ -352,6 +352,19 @@ echo $num;
 echo "<br>";
 echo "Assignment Operator"
 
+/*=
++=
+-=
+*=
+%=
+*/
+
+//aditional oparetor
+
+/*$amount = 10;
+$amount = $amount + 10;
+echo $amount;*/
+
 
 
 
